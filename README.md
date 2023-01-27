@@ -78,3 +78,19 @@ plt.title("BAR PLOT")
 plt.xlabel('Years')
 plt.ylabel('Yeild (in hecter)')
 plt.show()
+
+#scATTER PLOT
+import matplotlib.pyplot as plt
+
+year = [2010, 2011, 2012, 2013, 2014, 2015]
+yeild_apple = [0.895, 0.91, 0.919, 0.926, 0.929, 0.930]
+
+
+plt.title("SCATTER PLOT")
+plt.scatter(year,yeild_apple )
+
+plt.xlabel('Years')
+plt.ylabel('Yeild (in hecter)')
+
+plt.colorbar(orientation="horizontal")
+plt.show()
